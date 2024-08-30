@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="C:\Users\bouka\OneDrive\Desktop\BEZOK BTP sarl\images\logo btp.jpg" href="C:\Users\bouka\OneDrive\Desktop\BEZOK BTP sarl\images\logo btp.jpg">
+
+  <title>RICHARD BTP sarl</title>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,700&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
+
+  <style>
+    footer{ 
+        background: grey;
+        padding-top: 50px;
+    }
+    .container{
+        width: 1140px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-content{
+        width: 33.3%;
+    }
+    h3{
+        font-size: 28px;
+        margin-bottom: 15px;
+        text-align: center;
+        
+    }
+    .footer-content p{
+        width:190px;
+        margin: auto;
+        padding: 7px;
+    }
+    .footer-content ul{
+        text-align: center;
+    }
+    .list{
+        padding: 0;
+    }
+    .list li{
+        width: auto;
+        text-align: center;
+        list-style-type:none;
+        padding: 7px;
+        position: relative;
+    }
+    .list li::before{
+        content: '';
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 100%;
+        width: 0;
+        height: 2px;
+        background: #f18930;
+        transition-duration: .5s;
+    }
+    .list li:hover::before{
+        width: 70px;
+    }
+    .social-icons{
+        text-align: center;
+        padding: 0;
+    }
+    .social-icons li{
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+    }
+    .social-icons i{
+        color: white;
+        font-size: 25px;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        color: #f18930;
+    }
+    .social-icons i:hover{
+        color: #f18930;
+    }
+    .bottom-bar{
+        background: #f18930;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 50px;
+    }
+    .bottom-bar p{
+        color: #343434;
+        margin: 0;
+        font-size: 16px;
+        padding: 7px;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Playwrite+CO:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Varela+Round&display=swap');
+    body {
+      font-family: "Varela Round", sans-serif;
+    }
+
+    .navbar-nav {
+      margin-left: auto;
+    }
+
+    .navbar-nav .nav-item {
+      margin-left: 2px;
+    }
+
+    .img-box img {
+      width: 150%;
+      height: 300px; /* Vous pouvez ajuster cette hauteur selon vos besoins */
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .square-box img, 
+    .box img {
+      width: 100%;
+      height: 195px; /* Vous pouvez ajuster cette hauteur selon vos besoins */
+      object-fit: cover;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .img-box img:hover, .square-box img:hover, .box img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .navbar-nav .nav-link {
+      left: 20px;
+      color: #000;
+      font-weight: bold;
+      padding: 10px 15px;
+      border-radius: 5px;
+      background-color: rgba(0, 0, 255, 0.5);
+      transition: background-color 0.3s;
+    }
+
+    .navbar-nav .nav-item:hover .nav-link {
+      color: #fff;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover {
+      background-color: rgba(0, 0, 255, 0.8);
+    }
+
+    .navbar-brand img {
+      width: 50px;
+      height: auto;
+    }
+
+    .hero_area {
+      position: relative;
+    }
+
+    .hero_area .detail-box {
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero_area .background-logo {
+      position: absolute;
+      top: 50%;
+      left: 20%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      opacity: 0.1; 
+      width: 20%;
+      height: auto;
+    }
+
+    .custom_nav-container {
+      width: 100%; /* Assurez-vous que la barre de navigation prend toute la largeur de la page */
+      z-index: 1000; /* Assurez-vous que la barre de navigation est au-dessus de tout autre contenu */
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="hero_area">
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo btp.jpg" alt="Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+              <li class="nav-item"><a class="nav-link" href="A propos.html">A propos</a></li>
+              <li class="nav-item"><a class="nav-link" href="Nos services.html">Nos services</a></li>
+              <li class="nav-item"><a class="nav-link" href="Nos realisations.html">Nos realisations</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contactez-nous</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="slider_section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 offset-md-1">
+            <div class="detail-box">
+              <h1>
+                <span> RICHARD BTP </span> <br>
+                sarl
+              </h1>
+              <p>
+              </p>
+              <div class="btn-box">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="background-logo" src="images/logo btp.jpg" alt="Logo Background">
+    </section>
+  </div>
+  <section class="about_section layout_padding-bottom">
+    <div class="square-box">
+      <img src="images/pexels-tranmautritam-448828.jpg" alt="">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="img-box">
+            <img src="images/pexels-tom-shamberger-5308978-5924617.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                Nos constructions
+              </h2>
+            </div>
+            <p>
+              L'entreprise RICHARD BTP Sarl a réalisé divers projets de construction remarquables, 
+              témoignant de son expertise et de son engagement envers l'excellence. Parmi ses accomplissements, 
+              on compte la construction de résidences modernes alliant design contemporain et durabilité, 
+              ainsi que des complexes commerciaux offrant des espaces fonctionnels et esthétiquement agréables. 
+              RICHARD BTP Sarl a également réalisé des infrastructures publiques telles que des écoles et des centres de santé, 
+              contribuant ainsi au développement communautaire. 
+              De plus, l'entreprise a mené à bien des projets de rénovation de bâtiments historiques, 
+              préservant le patrimoine tout en intégrant des technologies de pointe. Grâce à une équipe de professionnels qualifiés et à une gestion rigoureuse des projets,
+               RICHARD BTP Sarl s'est imposée comme un acteur clé dans le secteur de la construction.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sale_section layout_padding-bottom">
+    <div class="container-fluid">
+      <div class="heading_container">
+        <h2>
+          Nos services
+        </h2>
+        <p>
+          RICHARD BTP Sarl offre une gamme complète de services de construction, 
+          répondant aux besoins variés de ses clients avec professionnalisme et expertise. 
+          L'entreprise propose des services de conception et de planification architecturale, 
+          garantissant des solutions créatives et fonctionnelles adaptées à chaque projet. 
+        </p>
+      </div>
+      <div class="sale_container">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/pexels-phalansheeshev-17504471.jpg" alt="">
+          </div>
+          <div class="detail-box">
+            <h6>
+              Nos revovations
+            </h6>
+            <p>
+              RICHARD BTP Sarl est spécialisée dans les rénovations, 
+              offrant des services complets pour moderniser et revitaliser les structures existantes. 
+              Que ce soit pour des bâtiments résidentiels, commerciaux ou industriels, 
+              l'entreprise propose des solutions sur mesure qui respectent l'architecture d'origine tout en intégrant des améliorations contemporaines. 
+              Les travaux de rénovation comprennent la mise à jour des systèmes électriques et de plomberie, 
+              l'amélioration de l'isolation et de l'efficacité énergétique, ainsi que la refonte des espaces 
+              intérieurs et extérieurs pour mieux répondre aux besoins actuels des clients.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/pexels-pal-eyes-449744475-15493415.jpg" alt="">
+          </div>
+          <div class="detail-box">
+            <h6>
+              Nos services
+            </h6>
+            <p>
+              l'entreprise a mené à bien des projets de rénovation de bâtiments historiques, 
+              préservant le patrimoine tout en intégrant des technologies de pointe. 
+              Grâce à une équipe de professionnels qualifiés et à une gestion rigoureuse des projets, 
+              RICHARD BTP Sarl s'est imposée comme un acteur clé dans le secteur de la construction.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/pexels-fotios-photos-4555137.jpg" alt="">
+          </div>
+          <div class="detail-box">
+            <h6>
+              Nos batiments renové
+            </h6>
+            <p>
+              Parmi les bâtiments rénovés par RICHARD BTP Sarl, 
+              on trouve une variété de structures emblématiques qui témoignent de son savoir-faire.
+               L'entreprise a transformé des immeubles anciens en résidences modernes, 
+               réhabilité des bureaux pour en faire des espaces de travail innovants, 
+               et restauré des monuments historiques avec une attention particulière aux détails et aux matériaux authentiques. 
+               Ces projets de rénovation démontrent la capacité de RICHARD BTP Sarl à préserver le patrimoine tout en ajoutant une valeur significative aux propriétés.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/pexels-pal-eyes-449744475-15493415.jpg" alt="">
+          </div>
+          <div class="detail-box">
+            <h6>
+              Nos equipes de constructions
+            </h6>
+            <p>
+              Les équipes de construction de RICHARD BTP Sarl sont composées de professionnels hautement qualifiés et expérimentés, incluant des architectes, des ingénieurs, des artisans et des gestionnaires de projet. Chaque membre de l'équipe apporte son expertise spécifique pour garantir des réalisations de haute qualité. L'entreprise investit continuellement dans la formation et le développement de son personnel, assurant ainsi une maîtrise des dernières techniques et technologies de construction. Grâce à une coordination efficace et une communication transparente, les équipes de RICHARD BTP Sarl travaillent en synergie pour livrer des projets qui respectent les délais, les budgets et les normes de qualité les plus élevées.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="deal_section layout_padding-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="detail-box">
+              <div class="heading_container">
+                <h2>
+                  Nos chantiers
+                </h2>
+              </div>
+              <p>
+                Les chantiers de RICHARD BTP Sarl illustrent la diversité et l'ampleur de ses compétences en construction. L'entreprise mène à bien des projets variés, allant de la construction de logements résidentiels aux complexes commerciaux, en passant par les infrastructures publiques et les bâtiments industriels. Chaque chantier est abordé avec une rigueur et une attention particulières, assurant la conformité aux normes de sécurité et de qualité en vigueur. RICHARD BTP Sarl s'engage à utiliser des matériaux de haute qualité et à adopter des pratiques de construction durables pour minimiser l'impact environnemental de ses projets.
+              </p>
+              <a href="">
+               Voir plus
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="img-box">
+              <div class="box b1">
+                <img src="images/pexels-mike-van-schoonderwalt-1884800-5511097.jpg" alt="">
+              </div>
+              <div class="box b1">
+                <img src="images/pexels-mike-van-schoonderwalt-1884800-5511097.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="us_section layout_padding2">
+  <div class="container">
+    <div class="heading_container">
+      <h2>
+        Nos Succes
+      </h2>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/pexels-mike-van-schoonderwalt-1884800-5511097.jpg" alt="">
+          </div>
+          <div class="detail-box">
+            <h3 class="price">
+              Plus de 5 ans
+            </h3>
+            <h5>
+             Année de services
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/pexels-matreding-12708020.jpg" alt="">
+          </div>
+          <div class="detail-box">
+            <h3>
+              Plus de 2000
+            </h3>
+            <h5>
+              Projets delivrés
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/pexels-matreding-12708020.jpg" alt="">
+          </div>
+          <div class="detail-box">
+            <h3>
+             Plus de 1000 de 
+            </h3>
+            <h5>
+              Nos clients satisfaits
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/pexels-israyosoy-21717712.jpg" alt="">
+          </div>
+          <div class="detail-box">
+            <h3>
+              1500+
+            </h3>
+            <h5>
+              Nos revenus
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="btn-box">
+    </div>
+  </div>
+    </section>
+    <section class="client_section layout_padding">
+      <div class="container-fluid">
+        <div class="heading_container">
+          <h2>
+            AVIS DU DIRECTEUR GENERAL DE RICHARD BTP sarl
+          </h2>
+        </div>
+        <div class="client_container">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="box">
+                  <div class="img-box">
+                    <img src="images/Photo de Bouka Richard Jeffrey (2).jpg" alt="">
+                  </div>
+                  <div class="detail-box">
+                    <h5>
+                      <span>DIRECTEUR GENERAL DE RICHARD BTP sarl</span>
+                      <hr>
+                    </h5>
+                    <p>
+                      En tant que Directeur Général de RICHARD BTP Sarl, 
+                      je suis fier de la progression et des réalisations de notre entreprise. 
+                      Notre engagement inébranlable envers la qualité, 
+                      l'innovation et la satisfaction de nos clients est au cœur de tout ce que nous entreprenons. 
+                      Nos équipes dévouées, composées de professionnels qualifiés, travaillent avec rigueur et passion pour garantir des résultats à la hauteur des attentes. 
+                      Nous investissons continuellement dans les nouvelles technologies et dans la formation de notre personnel pour rester à la pointe de l'industrie. 
+                      Chez RICHARD BTP Sarl, nous croyons fermement en une approche durable et responsable de la construction. 
+                      Nous nous efforçons de minimiser notre impact environnemental tout en maximisant la valeur ajoutée pour nos clients et les communautés locales. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="client_section layout_padding">
+      <div class="container-fluid">
+        <div class="heading_container">
+          <h2>
+            AVIS DE L'EQUIPE RICHARD
+          </h2>
+        </div>
+        <div class="client_container">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="box">
+                  <div class="img-box">
+                    <img src="images/pexels-hannu-iso-oja-3301403-4946889.jpg" alt="">
+                  </div>
+                  <div class="detail-box">
+                    <h5>
+                      <span>Equipes de RICHARD.BTP</span>
+                      <hr>
+                    </h5>
+                    <p>
+                      Les équipes de RICHARD BTP Sarl expriment une grande fierté et un engagement profond envers leur travail au sein de l'entreprise. Composées d'architectes, d'ingénieurs, d'artisans et de gestionnaires de projets, nos équipes apportent chacune une expertise unique qui, lorsqu'elle est combinée, crée une synergie puissante permettant de réaliser des projets de haute qualité. Nos professionnels apprécient la culture de l'innovation et de l'excellence qui règne chez RICHARD BTP Sarl. Ils sont motivés par les défis que présente chaque nouveau chantier et sont constamment encouragés à développer leurs compétences et à adopter les dernières technologies et méthodes de construction. Les membres de nos équipes trouvent également une grande satisfaction dans les résultats tangibles de leur travail. Voir un projet prendre forme, de la conception initiale à la réalisation finale, est une source de fierté et de motivation. Ils apprécient particulièrement les retours positifs de nos clients et la reconnaissance de leur travail bien fait.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <footer>
+      <div class="container">
+          <div class="footer-content">
+              <h3>Contactez-nous</h3>
+              <p>	inforecrutement225@gmail.com</p>
+              <p>Phone:27 22 30 56 25 / 07 89 18 55 55</p>
+              <p>Addresse:Cocody 2 plateaux, Rue L2, à 200 m de la CEI</p>
+          </div>
+          <div class="footer-content">
+              <h3>Nos liens</h3>
+               <ul class="list">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="A propos.html">A propos</a></li>
+                  <li><a href="Nos services.html">Nos services</a></li>
+                  <li><a href="Nos realisations.html">Nos realisations</a></li>
+                  <li><a href="contact.html">contact</a></li>
+               </ul>
+          </div>
+          <div class="footer-content">
+              <h3>suivez-nous</h3>
+              <ul class="social-icons">
+               <li><a href=""><i class="fab fa-facebook"></i></a></li>
+               <li><a href=""><i class="fab fa-twitter"></i></a></li>
+               <li><a href=""><i class="fab fa-instagram"></i></a></li>
+               <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+              </div>
+      </div>
+      <div class="bottom-bar">
+          <p>&copy; 2024 votre compagnie. Tous droits réservés</p>
+      </div>
+  </footer>
+</body>
+</html>
